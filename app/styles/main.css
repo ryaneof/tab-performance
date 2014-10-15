@@ -1,0 +1,11 @@
+body { padding-top: 30px; padding-bottom: 20px; }
+
+@media (min-width: 768px) {
+  .container { max-width: 590px; }
+}
+
+.header { border-bottom: 1px solid #E5E5E5; }
+
+#inputMetricsWrapper label { width: 100%; margin-left: 0; }
+#formInfo { margin-top: 20px; margin-bottom: 0; }
+#formOptions { margin-top: 20px; }

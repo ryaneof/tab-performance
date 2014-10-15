@@ -1,0 +1,41 @@
+{
+    "name": "Tab Performance",
+    "version": "0.0.2",
+    "manifest_version": 2,
+    "description": "Showing current tab performance metrics",
+    "icons": {
+        "16": "images/icon-16.png",
+        "128": "images/icon-128.png"
+    },
+    "default_locale": "en",
+    "background": {
+        "scripts": [
+            "scripts/chromereload.js",
+            "scripts/background.js"
+        ]
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "scripts/content-scripts.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "http://*/*",
+        "tabs",
+        "storage",
+        "webNavigation"
+    ],
+    "options_page": "options.html",
+    "browser_action": {
+        "default_icon": {
+            "19": "images/icon-19.png",
+            "38": "images/icon-38.png"
+        },
+        "default_title": "Tab Performance"
+    }
+}

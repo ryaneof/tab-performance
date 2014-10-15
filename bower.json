@@ -1,0 +1,10 @@
+{
+  "name": "tab-performance",
+  "version": "0.0.0",
+  "dependencies": {
+    "d3": "~3.4.12",
+    "d3-timeline": "https://github.com/jiahuang/d3-timeline.git#master",
+    "bootstrap": "~3.2.0"
+  },
+  "devDependencies": {}
+}
