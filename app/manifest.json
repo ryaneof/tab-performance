@@ -1,6 +1,6 @@
 {
     "name": "Tab Performance",
-    "version": "0.0.2",
+    "version": "0.0.4",
     "manifest_version": 2,
     "description": "Showing current tab performance metrics",
     "icons": {
